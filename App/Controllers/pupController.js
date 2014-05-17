@@ -15,7 +15,15 @@
 								"Female",
 								"Small",
 								"N/A",
-								"Snarky, small, superfluff.",
+								"Snarky, small, superfluff."
+						),
+						new Pup("Capt. Waffles",
+								"0",
+								"Avenger",
+								"Male",
+								"Hulk",
+								"N/A",
+								"I understood that reference."
 						),
 				];
     }
