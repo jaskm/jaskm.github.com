@@ -1,81 +1,11 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="pupApp">
 <head>
-    <title>About Me</title>
-		<link href="site.css" rel="stylesheet" />
+    <title>Jasmine's Pups!</title>
 </head>
 <body>
-	<div class="container" id="main" ng-controller="pupController">
 		
 		<h1>Jasmine's Pup Project</h1>
-		
-		<!--<div class="row">
-			<span class="col-sm-2 col-sm-offset-2">
-				Order by:
-			</span>
-			<span class="col-sm-6">
-				<select ng-model="sortWorkOrder">
-					<option value="state">State (Alphabetically)</option>
-					<option value="-eYear" selected>Ending Year</option>
-					<option value="sYear">Starting Year</option>
-				</select>
-			</span>
-		</div>-->
-
-		<!--Pups SECTION-->
-		<h3>Pups</h3>
-        
-        <ul class="list-unstyled list-group">
-            <li class="list-group-item-rounded" ng-repeat="pup in allPups">
-                <div>
-                    <div class="row">
-                        <span class="col-sm-12 lead text-left">
-                            {{pup.name}}
-                        </span>
-                        <div class="col-sm-6 text-left">
-                            {{pup.breed}},&nbsp;{{pup.gender}}
-                        </div>
-                    </div>
-
-                    <div class="row fadein fadeout" ng-show="pup.showDetails">
-
-                        <br />
-
-                        <div class="col-sm-5 col-sm-offset-1">
-                            <div class="row">
-                                TODO:{{pup.image}} <!--note: still also have to do age, size-->
-                            </div>
-                            <br/>
-                            <div class="row">
-                                {{pup.summary}}
-                            </div>
-                        </div>
-                    </div>
-
-                    <br />
-				
-                    <!--BUTTONS-->
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <button class="btn btn-default" ng-click="toggleShowPupDetails(pup)">
-                                <span ng-hide="pup.showDetails">Show Pup</span>
-                                <span ng-show="pup.showDetails">Hide Pup</span>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </li>
-        </ul>
-	</div>
-	
-    <!--SCRIPTS-->
-    <script src="Scripts/angular.js"></script>
-	<script src="Scripts/angular-animate.js"></script> <!--You don't really need this...yet.-->
-    <script src="App/app.js"></script>
-    <script src="App/Models/Pup.js"></script>
-	<script src="App/Controllers/PupController.js"></script>
 
 </body>
 </html>
