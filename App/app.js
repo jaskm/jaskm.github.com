@@ -1,1 +1,1 @@
-﻿var infoApp = new angular.module("infoApp", ["ngAnimate"]);
+﻿var pupApp = new angular.module("pupApp", ["ngAnimate"]);
